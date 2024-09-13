@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "telegram bot service"
+version = "0.0.1"
+description = ""
+authors = ["timmashkov <mashkovtb@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+isort = "^5.13.2"
+black = "^24.8.0"
+flake8 = "^7.1.1"
+
+[tool.poetry.group.dev.dependencies]
+aiogram = "^3.13.0"
+dynaconf = "^3.2.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

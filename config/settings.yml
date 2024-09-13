@@ -1,0 +1,4 @@
+dynaconf_merge: true
+default:
+  NAME: telegram bot service
+  TOKEN: token_example
