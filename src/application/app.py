@@ -1,6 +1,6 @@
 from config import settings
-from domains.user.message_handlers import UserActionRouter
-from infractructure.server import Server
+from domains.user.message import UserActionRouter
+from infractructure.server.server import Server
 
 running_bot = Server(
     token=settings.TOKEN,
