@@ -1,9 +1,6 @@
 import asyncio
 
-
-async def main():
-    pass
-
+from application.app import running_bot
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(running_bot.run_server())

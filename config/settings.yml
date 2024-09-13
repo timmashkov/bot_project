@@ -2,3 +2,6 @@ dynaconf_merge: true
 default:
   NAME: telegram bot service
   TOKEN: token_example
+  BOT_NAME: bot_name
+  BOT_USERNAME: bot_username
+  LOG_LEVEL: INFO
