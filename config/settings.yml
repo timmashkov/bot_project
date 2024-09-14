@@ -5,3 +5,11 @@ default:
   BOT_NAME: bot_name
   BOT_USERNAME: bot_username
   LOG_LEVEL: INFO
+  WEATHER:
+    host: api_host
+    port: 0000
+    protocol: ""
+    api_key: some_api_key
+  PHRASES:
+    start: start phrase
+    help: help phrase
